@@ -4,5 +4,8 @@ using UnityEngine;
 
 public class StaticObstacle : Obstacle
 {
+    public override void Move()
+    {
 
+    }
 }

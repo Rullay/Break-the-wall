@@ -7,17 +7,15 @@ public abstract class Obstacle : MonoBehaviour
     public int decrease = 4;
 
 
-    public virtual void Update()
+    public void Update()
     {
         Move();
     }
 
 
-    public virtual void Move()
-    {
-
-    }
-
+    public abstract void Move();
+    
+    
     private void OnTriggerEnter(Collider other)
     {
         gameObject.SetActive(false);

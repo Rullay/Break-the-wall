@@ -9,10 +9,6 @@ public class ExtensionObstacle : Obstacle
     private bool ischange;
     public float changePerSecond;
 
-    public override void Update()
-    {
-        base.Update();
-    }
 
     public override void Move()
     {

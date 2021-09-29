@@ -6,10 +6,7 @@ public class RotateObstacle : Obstacle
 {
     public float frequency;
 
-    public override void Update()
-    {
-        base.Update();
-    }
+
 
     public override void Move()
     {

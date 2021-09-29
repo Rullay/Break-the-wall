@@ -14,10 +14,7 @@ public class MovingObstacle : Obstacle
     }
 
   
-     public override void  Update()
-     {
-        base.Update();
-     }
+  
 
     public override void Move()
     {   

@@ -10,11 +10,7 @@ ScriptsOnlyBuild:
     - RotateObstacle
     - Sphere
     - StaticObstacle
-    Unity.Recorder.Editor.dll:
-    - UnityEditor.Recorder.MovieRecorderEditor
-    - UnityEditor.Recorder.MovieRecorderSettings
-    - UnityEditor.Recorder.RecorderControllerSettings
-    - UnityEditor.Recorder.RecorderSettingsPrefsEditor
+    - cxv
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     UnityEditor.Graphs.dll:
@@ -76,37 +72,39 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1484}
+      Script: {instanceID: 1514}
     - Class: 114
-      Script: {instanceID: 1598}
+      Script: {instanceID: 1636}
     - Class: 114
-      Script: {instanceID: 1880}
+      Script: {instanceID: 1936}
     - Class: 114
-      Script: {instanceID: 1960}
+      Script: {instanceID: 2022}
     - Class: 114
-      Script: {instanceID: 2164}
+      Script: {instanceID: 2242}
     - Class: 114
-      Script: {instanceID: 2238}
+      Script: {instanceID: 2320}
     - Class: 114
-      Script: {instanceID: 2338}
+      Script: {instanceID: 2434}
     - Class: 114
-      Script: {instanceID: 2450}
+      Script: {instanceID: 2556}
     - Class: 114
-      Script: {instanceID: 2486}
+      Script: {instanceID: 2592}
     - Class: 114
-      Script: {instanceID: 2666}
+      Script: {instanceID: 2798}
     - Class: 114
-      Script: {instanceID: 2728}
+      Script: {instanceID: 2868}
     - Class: 114
-      Script: {instanceID: 2746}
+      Script: {instanceID: 2886}
     - Class: 114
-      Script: {instanceID: 2826}
+      Script: {instanceID: 2970}
     - Class: 114
-      Script: {instanceID: 2864}
+      Script: {instanceID: 3010}
     - Class: 114
-      Script: {instanceID: 3694}
+      Script: {instanceID: 3936}
     - Class: 114
-      Script: {instanceID: 4054}
+      Script: {instanceID: 4330}
+    - Class: 114
+      Script: {instanceID: 20308}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -326,6 +324,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 49101319b21043357cb80c5aba043e1d
+    assemblyName: Unity.Recorder.dll
+    namespaceName: UnityEngine.Recorder
+    className: RecorderBindings
   - hash:
       serializedVersion: 2
       Hash: 748dd2a2a28da4e618912da5ac45684b
@@ -604,11 +608,11 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
-      Hash: 49101319b21043357cb80c5aba043e1d
-    assemblyName: Unity.Recorder.dll
-    namespaceName: UnityEngine.Recorder
-    className: RecorderBindings
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: cxv
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: "C:/Users/Lenovo/Desktop/\u0418\u0413\u0440\u044B/Break the wall 1.2.apk"
+  playerPath: "C:/Users/Lenovo/Desktop/\u0418\u0413\u0440\u044B/Break the wall_Opt1.2.apk"
